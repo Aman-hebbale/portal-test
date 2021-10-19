@@ -1,0 +1,66 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.atmega4809-noise-countermeasures-adc-studio",
+        "version": "1.0.1",
+        "displayName": "ATmega4809 Noise Countermeasures for ADC Applications",
+        "projectName": "atmega4809-noise-countermeasures-adc-studio",
+        "shortDescription": "This Atmel Studio 7 example demonstrates noise countermeasures for ADC applications onmegaAVR 0-series devices",
+        "ide": {
+            "name": "STUDIO",
+            "semverRange": ">=7.0.2397"
+        },
+        "compiler": [
+            {
+                "name": "AVR GCC",
+                "semverRange": "^5.4.0"
+            }
+        ],
+        "dfp": {
+            "name": "ATmega_DFP",
+            "semverRange": "^1.4.351"
+        },
+        "configurator": {
+            "name": "START",
+            "semverRange": ">=1.7.360"
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATmega4809",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "peripherals": [
+            "VREF",
+            "ADC",
+            "USART",
+            "TCA"
+        ],
+        "keywords": [
+            "Filter",
+            "PWM",
+            "START",
+	    "STOP",
+	    "PWD"
+
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
